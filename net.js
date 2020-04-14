@@ -1,4 +1,5 @@
 process.stdout.write('\u001B[2J\u001B[0;0f')
+const port = process.env.PORT || 8000
 const server = require('net').createServer();
 let counter = 0; 
 let sockets ={}; 
@@ -37,4 +38,4 @@ server.on('connection', socket=>{
    
 });
 
-server.listen(8000, ()=>console.log('Server Bound'))
+server.listen(port, ()=>console.log('Server Bound'))

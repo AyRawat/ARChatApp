@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An app for Chatting",
   "main": "net.js",
+  "start": "node net.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
