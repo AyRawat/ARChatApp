@@ -1,4 +1,4 @@
-process.stdout.write('\u001B[2J\u001B[0;0f')
+//process.stdout.write('\u001B[2J\u001B[0;0f')
 const port = process.env.PORT || 8000
 const server = require('net').createServer();
 let counter = 0; 
